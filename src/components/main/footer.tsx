@@ -18,7 +18,7 @@ export default function footer (){
                 <div className="mb-5 ">
                 <h2 className="text-[2em] text-center ">Contatos</h2> 
                 <div className="flex space-x-3 justify-center">
-                <Image src={whats} className="size-[50px] " />
+                <Image src={whats} className="size-[50px] " alt="WhatsappIcon" />
              
                 </div>
                 <h1 className="font-lato text-center font-bold "><strong className="text-blue-100">Email: </strong> salomao.psa3@gmail.com</h1>
@@ -29,14 +29,14 @@ export default function footer (){
                 <div className="mb-5 ">
                <h2 className="text-[2em] text-center  ">Tecnologias Usadas</h2>
                <div className="flex space-x-3 justify-center">
-               <Image src={next} className="size-[50px]" />
-               <Image src={css} className="size-[50px]" />
-               <Image src={ph} className="size-[50px]" />
+               <Image src={next} className="size-[50px]" alt="icone nextJS" />
+               <Image src={css} className="size-[50px]" alt="Icone taiwindCSS"/>
+               <Image src={ph} className="size-[50px]"alt="Icone Photoshop" />
                </div>
                
                 </div>
                 <div className="mb-5">
-                <Image src={Rh} className="rounded-[2em] border-2 border-green-500"/>
+                <Image src={Rh} className="rounded-[2em] border-2 border-green-500" alt="Me contrata RH"/>
                 </div>
                
             </div>

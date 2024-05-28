@@ -5,11 +5,11 @@ export default function Home() {
     
     <>
     <div className="carousel">
-      <Image src={New}/>
+      <Image src={New} alt="Nova unidade do Assái em Barueri "/>
       </div>
     <div className="mx-auto px-10 z-50">
-    <div className="unidade grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-gray-200 mt-2 border-2 border-orange-600 rounded-lg">
-      <div className="mb-5 text-center border-x-2 border-orange-600">
+    <div className="unidade grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-gray-200 mt-2 border-2 border-orange-900 rounded-lg">
+      <div className="mb-5 text-center border-2 border-orange-600">
         
         <h2 className="text-center text-[36px] text-blue-600">Assaí Barueri Avenida do Café</h2>
         <p className="text-center text-blue-600 font-lato">Av. Mário Sadanori Doi - Jardim dos Camargos </p>
@@ -23,7 +23,7 @@ Espaço do Cliente: 0800 773 2322</p>
 Domingos e Feriados: das 08:00 às 20:00 </p>
       </div>
 
-      <div className="mb-5 text-center border-x-2 border-orange-600">
+      <div className="mb-5 text-center border-2 border-orange-600">
       <h2 className="text-center text-[36px] text-blue-600">Assaí Carapicuíba</h2>
         <p className="text-center text-blue-600 font-lato">Avenida Desembargador Doutor Eduardo Cunha De Abreu, 1.455 Vila  </p>
         <p className="text-center text-blue-600">Municipal - Carapicuíba São Paulo - 06328-330 </p>
@@ -36,7 +36,7 @@ Domingos e Feriados: das 08:00 às 20:00 </p>
 Domingos e Feriados: das 08:00 às 20:00 </p>
       </div>
 
-      <div className="mb-5 text-center border-x-2 border-orange-600">
+      <div className="mb-5 text-center border-2 border-orange-600">
       <h2 className="text-center text-[36px] text-blue-600">Assaí Osasco</h2>
         <p className="text-center text-blue-600 font-lato">Avenida dos Autonomistas, 1.687 Vila Yara - Osasco </p>
         <p className="text-center text-blue-600">São Paulo - 06020-015 </p>

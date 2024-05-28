@@ -6,7 +6,7 @@ export default function Header(){
     return(<>
      <header className="containerP w-full h-20  bg-blue-700  border-b-4  border-yellow-500">
     <div className="flex items-center justify-between py-1" >
-      <Image src={Logo} className=" ml-10 sm:ml-38 md:ml-36 lg:ml-32 xl:ml-32 2xl:ml-36 w-24 h-full " />
+      <Image src={Logo} className=" ml-10 sm:ml-38 md:ml-36 lg:ml-32 xl:ml-32 2xl:ml-36 w-24 h-full " alt="Logo Assaí" />
       <div className="px-6">
     <input type="text" name="pesquise" id="text" placeholder="Buscar.." className="px-2 rounded-lg" />
       </div>
